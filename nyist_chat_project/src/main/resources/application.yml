@@ -1,0 +1,18 @@
+server:
+  port: 80
+spring:
+  freemarker:
+    suffix: .html
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///chat
+    username: root
+    password: 123456
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+qiniu:
+  accessKey: 1g3HsF5FWlYeOmXHH6vd11SXcup0LlSUOM8QPFeD
+  secretKey: Mn7FchPKfzHbWemiac99k6u3YnLEmzeZ03QK5LOB
+  bucket: sylphoto
+  path: qc9pe1tko.bkt.clouddn.com
